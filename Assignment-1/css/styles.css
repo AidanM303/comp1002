@@ -28,4 +28,12 @@ small {
     float: right;
     color: bisque;
 }
+#pizza_image {
+    width: 392px;
+    height: 196px;
+}
+p {
+    font-style: italic;
+    font-size: large;
+}
 
