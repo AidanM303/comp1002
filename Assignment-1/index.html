@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Assignment 1: Colonel Macaroni's Pizzaria | comp1003</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    </head>
+    <body>
+        <header>
+            <h1>Colonel Macaroni's Pizzaria</h1>
+        </header>
+        <main>
+            <h2>Create Your Pizza</h2>
+            <form id="create_pizza" action="" method="get">
+                <input type="hidden" name="form_sent" value="1" />
+                <fieldset>
+                    <legend>Presets</legend>
+                    <div>
+                        <label for="pizza">Pizza</label>
+                        <select name="pizza" id="pizza"><!-- Preset pizzas -->
+                            <option value="cheese">Cheese</option>
+                            <option value="pepperoni">Pepperoni</option>
+                            <option value="canadian">Canadian</option>
+                            <option value="meat lover's">Meat Lover's</option>
+                            <option value="veggie">Veggie</option>
+                            <option value="chicken">Chicken</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Crust and Toppings</legend>
+
+
+                    <h3>Crust</h3><!-- Crust selection -->
+                    <input type="radio" name="crust" id="regular" value="regular" />
+                    <label for="regular">Regular crust</label>
+
+                    <input type="radio" name="crust" id="thin" value="thin" />
+                    <label for="thin">Thin crust</label>
+
+                    <input type="radio" name="crust" id="stuffed" value="stuffed" />
+                    <label for="stuffed">Stuffed crust</label>
+
+                    <input type="radio" name="crust" id="deep dish" value="deep dish" />
+                    <label for="deep dish">Deep Dish</label>
+
+                    
+                    <h3>Cheese</h3><!-- Cheese selection -->
+                    <input type="radio" name="cheese" id="regular" value="regular cheese" />
+                    <label for="regular cheese">Regular cheese</label>
+
+                    <input type="radio" name="cheese" id="no cheese" value="no cheese" />
+                    <label for="no cheese">No cheese</label>
+
+                    <input type="radio" name="cheese" id="three cheese" value="three cheese" />
+                    <label for="three cheese">Three cheese blend</label>
+
+
+                    <h3>Other Toppings</h3><!-- Topping selection -->
+                    <input type="checkbox" name="topping" id="pepperoni" value="pepperoni" />
+                    <label for="pepperoni">Pepperoni</label>
+
+                    <input type="checkbox" name="topping" id="green olive" value="green olive" />
+                    <label for="green olive">Green olives</label>
+
+                    <input type="checkbox" name="topping" id="mushroom" value="mushroom" />
+                    <label for="mushroom">Mushrooms</label>
+
+                    <input type="checkbox" name="topping" id="chicken" value="chicken" />
+                    <label for="chicken">Chicken</label>
+
+                    <input type="checkbox" name="topping" id="sausage" value="sausage" />
+                    <label for="sausage">Sausage</label>
+
+                    <input type="checkbox" name="topping" id="bacon" value="bacon" />
+                    <label for="bacon">Bacon</label>
+
+                    <input type="checkbox" name="topping" id="red pepper" value="red pepper" />
+                    <label for="red pepper">Red peppers</label>
+
+                    <input type="checkbox" name="topping" id="banana pepper" value="banana pepper" />
+                    <label for="banana pepper">Banana peppers</label>
+
+
+                </fieldset>
+                <fieldset>
+                    <legend>Payment Info</legend>
+                    
+                    
+                    <h3>Payment method</h3>
+                    <input type="radio" name="method" id="cash" value="cash" />
+                    <label for="cash">Cash</label>
+
+                    <input type="radio" name="method" id="card" value="card" />
+                    <label for="card">Credit/Debit</label>
+
+                    <input type="radio" name="method" id="gift" value="gift" />
+                    <label for="gift">Gift card</label>
+
+                    <div><!--personal info-->
+                        <label for="fname">First Name</label>
+                        <input type="text" name="fname" id="fname"/>
+                    </div>
+                    <div>
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lname" id="lname"/>
+                    </div>
+                    <div>
+                        <label for="address">Address Line 1</label>
+                        <input id="address" type="text" name="address" />
+                    </div>
+        
+
+                </fieldset>
+                <button type="reset">Reset</button> <button type="submit">Submit</button>
+            </form>
+        </main>
+        <footer>
+            <p><small>Colonel P. Macaroni | +1 705 123 ****</small></p>
+        </footer>
+    </body>
+</html>
