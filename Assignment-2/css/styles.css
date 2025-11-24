@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Permanent-marker;
+    src: url('fonts/PermanentMarker-Regular.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: EdgeOfTheGalaxy;
+    src: url('fonts/EdgeOfTheGalaxyPoster-3zRAp.otf') format(opentype);
+}
+
+html {
+    background-color: black;
+    background-image: url('../images/guardians2posternotext.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 600px;
+    color: white;
+    text-align: center;
+    text-shadow:
+        -0.2px -0.2px 0 black,
+        0.2px -0.2px 0 black,
+        -0.2px  0.2px 0 black,
+        0.2px  0.2px 0 black;
+    -webkit-text-stroke: 0.2px black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    color: white;
+    line-height: 15px;
+}
+
+header p {
+    margin-top: 350px;
+}
+
+footer p {
+    margin-top: 180px;
+}
+
+h1 {
+    font-family: EdgeOfTheGalaxy;
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 0.76;
+}
+
+h2 {
+    color: red;
+    font-family: Permanent-marker;
+    font-size: 50px;
+    transform: rotate(-10deg);
+    margin-top: -35px;
+    position: relative;
+    left: 90px;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px  1px 0 black,
+        1px  1px 0 black;
+    -webkit-text-stroke: 1px black;
+}
+
+h3 {
+    margin-top: -45px;
+    margin-bottom: 60px;
+}
+
+footer p strong{
+    font-size: 30px;
+}
