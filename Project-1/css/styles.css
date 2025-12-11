@@ -1,0 +1,56 @@
+html {
+    background-color: #202627;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+a {
+    padding: 2px;
+    color: chocolate;
+    background-color: rgb(14, 34, 48);
+    font-size: small;
+}
+
+img {
+    padding: 10px;
+}
+
+#deal {
+    width: 600px;
+    object-fit: contain;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+p em {
+    font-size: 25px;
+}
+
+footer p{
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
+#review {
+    width: 50em;
+    height: 10em;
+    text-wrap: wrap;
+}
+
+fieldset {
+    margin: 1em;
+}
